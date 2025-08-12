@@ -1,10 +1,15 @@
-<!-- PERFIL GITHUB -->
-<h1 align="center">Hola 👋, soy Sebastian Airthon Gonzales Aroni</h1>
-<h3 align="center">Estudiante de Ingeniería de Software | Apasionado por el desarrollo web y backend</h3>
+<!-- LOGO -->
+<p align="center">
+  <img src="assets/logolicht.png" alt="My Logo" width="200"/>
+</p>
 
-<!-- CONEXIONES -->
+<!-- TITLE -->
+<h1 align="center">Hi 👋, I'm Sebastian Airthon Gonzales Aroni</h1>
+<h3 align="center">Software Engineering Student | Passionate about Web Development and Backend</h3>
+
+<!-- CONNECT -->
 <hr>
-<h3 align="center">🌐 Conéctate conmigo:</h3>
+<h3 align="center">🌐 Connect with me:</h3>
 <p align="center">
   <a href="https://www.linkedin.com/in/sebastian-airthon-gonzales-aroni-13ba86344/" target="_blank">
     <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40"/>
@@ -14,9 +19,9 @@
   </a>
 </p>
 
-<!-- LENGUAJES Y HERRAMIENTAS -->
+<!-- LANGUAGES AND TOOLS -->
 <hr>
-<h3 align="center">🛠 Lenguajes y Herramientas:</h3>
+<h3 align="center">🛠 Languages and Tools:</h3>
 <p align="center">
   <a href="https://www.w3schools.com/cpp/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="40" height="40"/></a>
   <a href="https://www.w3schools.com/cs/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" width="40" height="40"/></a>
@@ -31,12 +36,12 @@
 
 <!-- GITHUB STATS -->
 <hr>
-<h3 align="center">📊 Mis estadísticas de GitHub:</h3>
+<h3 align="center">📊 My GitHub Stats:</h3>
 
 <img align="right" alt="Coding GIF" width="300" src="https://cdn.dribbble.com/users/1277312/screenshots/14733298/media/39b1045e593737587dd60e42c8422d1f.gif" >
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=lichtsebas&show_icons=true&theme=dark&locale=en&layout=compact" alt="Top Langs" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=lichtsebas&show_icons=true&theme=dark&locale=en&layout=compact" alt="Top Languages" />
 </p>
 
 <p align="center">
@@ -49,4 +54,3 @@
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=lichtsebas&theme=onedark&no-frame=true&margin-w=4" alt="Trophies" />
 </p>
-
