@@ -28,8 +28,9 @@
 <br><br><br><br><br><br><br>
 <p>&nbsp;<img align="left" src="https://github-readme-stats.vercel.app/api?username=lichtsebas&show_icons=true&theme=dark&locale=en" alt="LichtSebas" /></p>
 <br><br><br><br><br><br><br><br><br><br>
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=lichtsebas&theme=onedark&no-frame=true&no-bg=false&margin-w=4)
+<!-- My GitHub Stats -->
+</h3> 🏆 GitHub Trophies </h3>
+<p><img align="left" src="https://github-profile-trophy.vercel.app/?username=lichtsebas&theme=onedark&no-frame=true&no-bg=false&margin-w=4" alt="LichtSebas" /></p>
 <!--
 **LichtSebas/LichtSebas** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
