@@ -1,6 +1,6 @@
 <!-- LOGO -->
 <p align="center">
-  <img src="assets/logolicht (2).png" alt="My Logo" width="200"/>
+  <img src="logo/logolicht.png" alt="My Logo" width="200"/>
 </p>
 
 <!-- TITLE -->
