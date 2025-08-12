@@ -19,17 +19,17 @@
     <a href="https://nodejs.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> 
     <a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> 
 <!-- My GitHub Stats -->
-<h3>My GitHub Stats</h3>
+<h3>📊 My GitHub Stats</h3>
 <img align="right" alt="Coding" width="300" src="https://cdn.dribbble.com/users/1277312/screenshots/14733298/media/39b1045e593737587dd60e42c8422d1f.gif" >
 <br>
-
-
+  
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=lichtsebas&show_icons=true&theme=dark&locale=en&layout=compact" alt="LichtSebas" /></p>
 
 <br><br><br><br><br><br><br>
-<p>&nbsp;<img align="left" src="https://github-readme-stats.vercel.app/api?username=lichtsebas&show_icons=true&theme=dark&locale=en" alt="anii693" /></p>
+<p>&nbsp;<img align="left" src="https://github-readme-stats.vercel.app/api?username=lichtsebas&show_icons=true&theme=dark&locale=en" alt="LichtSebas" /></p>
 <br><br><br><br><br><br><br><br><br><br>
-
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=lichtsebas&theme=onedark&no-frame=true&no-bg=false&margin-w=4)
 <!--
 **LichtSebas/LichtSebas** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
