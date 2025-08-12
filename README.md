@@ -1,4 +1,10 @@
-
+<!-- CONNECTION -->
+<hr>      
+<h3 align="center">Connect with me:</h3>
+<p align="center">
+  <a href="https://www.linkedin.com/in/sebastian-airthon-gonzales-aroni-13ba86344/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/sebastian-airthon-gonzales-aroni-13ba86344/" height="30" width="40" /></a>
+  <a href="https://www.instagram.com/licht_pum/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="licht_pum" height="30" width="40" /></a>
+</p>
 <!-- LANGUAGES AND TOOLS -->
 <hr>
 <h3 align="center">Languages and Tools:</h3>
