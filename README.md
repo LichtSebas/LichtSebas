@@ -1,160 +1,38 @@
-<!doctype html>
-<html lang="es">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Perfil GitHub — Tu Nombre</title>
-  <meta name="description" content="Página personal / perfil para GitHub Pages">
-  <style>
-    :root{
-      --bg:#0f1724; --card:#0b1320; --muted:#93a3b8; --accent:#56ccf2; --glass: rgba(255,255,255,0.03);
-      --radius:14px; --maxw:900px;
-      color-scheme: dark;
-    }
-    *{box-sizing:border-box}
-    body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background:linear-gradient(180deg,#071025 0%, #081426 60%); color:#e6eef6; margin:0; padding:40px; display:flex; justify-content:center}
-    .container{width:100%; max-width:var(--maxw)}
-    .card{background:var(--card); border-radius:var(--radius); padding:28px; box-shadow:0 6px 30px rgba(2,6,23,0.6); backdrop-filter:blur(6px)}
-    header{display:flex; gap:20px; align-items:center}
-    .avatar{width:110px; height:110px; border-radius:16px; overflow:hidden; flex:0 0 110px; border:2px solid rgba(255,255,255,0.06)}
-    .avatar img{width:100%; height:100%; object-fit:cover}
-    .heading{flex:1}
-    h1{margin:0; font-size:22px}
-    p.lead{margin:6px 0 0; color:var(--muted)}
-    .badges{margin-top:10px; display:flex; gap:8px; flex-wrap:wrap}
-    .badge{background:var(--glass); padding:6px 10px; border-radius:999px; font-size:13px; color:var(--muted)}
 
-    .grid{display:grid; grid-template-columns:1fr 320px; gap:20px; margin-top:18px}
-    @media (max-width:880px){.grid{grid-template-columns:1fr} .heading{order:2} .avatar{order:1; margin-bottom:8px}}
-
-    .section{margin-top:18px}
-    .section h2{font-size:16px; margin:0 0 10px}
-    .about{line-height:1.6; color:#d7e6f2}
-
-    .skills{display:flex; flex-wrap:wrap; gap:10px}
-    .skill{background:linear-gradient(90deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); padding:8px 10px; border-radius:8px; font-size:13px; color:var(--muted)}
-
-    .projects{display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:12px}
-    .proj{background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.02)); padding:12px; border-radius:10px}
-    .proj h3{margin:0 0 8px; font-size:14px}
-    .proj p{margin:0; color:var(--muted); font-size:13px}
-
-    .side-card{background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.02)); padding:16px; border-radius:12px}
-    .socials{display:flex; gap:10px; margin-top:8px}
-    .socials a{display:inline-flex; align-items:center; gap:8px; padding:8px 10px; border-radius:8px; text-decoration:none; color:inherit; background:transparent}
-    .muted{color:var(--muted); font-size:13px}
-
-    footer{margin-top:18px; text-align:center; color:var(--muted); font-size:13px}
-
-    /* small utilities */
-    .copy-btn{cursor:pointer; border:1px solid rgba(255,255,255,0.04); padding:6px 8px; border-radius:8px; font-size:13px}
-
-  </style>
-</head>
-<body>
-  <div class="container">
-    <div class="card">
-      <header>
-        <div class="avatar"><img src="https://avatars.githubusercontent.com/u/000000?v=4" alt="Avatar"></div>
-        <div class="heading">
-          <h1>Tu Nombre <span style="font-size:13px; color:var(--muted)">/ @tuusuario</span></h1>
-          <p class="lead">Desarrollador/a de software • Estudiante de Ingeniería • Apasionado por web, backend y data</p>
-          <div class="badges">
-            <span class="badge">🏷️ Disponible para proyectos</span>
-            <span class="badge">🎓 Estudiante - Universidad</span>
-            <span class="badge">📍 Lima, Perú</span>
-          </div>
-        </div>
-      </header>
-
-      <div class="grid">
-        <main>
-          <section class="section about">
-            <h2>Sobre mí</h2>
-            <p>Soy <strong>Tu Nombre</strong>, estudiante de Ingeniería de Software con interés en desarrollo web, sistemas distribuidos y análisis de datos. Actualmente trabajo en proyectos personales que integran PHP, MySQL, Python y JavaScript. Me encanta aprender y compartir conocimiento en GitHub.</p>
-          </section>
-
-          <section class="section">
-            <h2>Habilidades</h2>
-            <div class="skills">
-              <span class="skill">HTML</span>
-              <span class="skill">CSS</span>
-              <span class="skill">JavaScript</span>
-              <span class="skill">PHP</span>
-              <span class="skill">MySQL</span>
-              <span class="skill">Python</span>
-              <span class="skill">Git</span>
-              <span class="skill">Docker (básico)</span>
-            </div>
-          </section>
-
-          <section class="section">
-            <h2>Proyectos destacados</h2>
-            <div class="projects">
-              <article class="proj">
-                <h3>EdanDecorMuebleria</h3>
-                <p>Tienda web en PHP + MySQL con panel administrativo, sistema de eventos y carrito de compras.</p>
-              </article>
-              <article class="proj">
-                <h3>Sistema Bancario (Proyecto académico)</h3>
-                <p>Analizador de pagos con generación de gráficos, predicciones y simulación de préstamos en Python.</p>
-              </article>
-              <article class="proj">
-                <h3>Otro Proyecto</h3>
-                <p>Descripción breve del proyecto, tecnologías y enlace al repositorio.</p>
-              </article>
-            </div>
-          </section>
-
-          <section class="section">
-            <h2>Contacto</h2>
-            <p class="muted">¿Quieres colaborar o contratarme? Escríbeme a <span id="email">tu.email@ejemplo.com</span> <button class="copy-btn" onclick="copyEmail()">Copiar</button></p>
-          </section>
-        </main>
-
-        <aside>
-          <div class="side-card">
-            <h2>Redes</h2>
-            <div class="socials">
-              <a href="#" target="_blank">GitHub · github.com/tuusuario</a>
-            </div>
-            <div class="socials">
-              <a href="#" target="_blank">LinkedIn · linkedin.com/in/tuusuario</a>
-            </div>
-            <div class="socials">
-              <a href="#" target="_blank">Twitter · @tuusuario</a>
-            </div>
-
-            <hr style="margin:12px 0; border-color: rgba(255,255,255,0.03)">
-            <p class="muted">Estadísticas (placeholder):</p>
-            <p class="muted">⭐ Repos públicos: <strong>12</strong></p>
-            <p class="muted">📊 Contribuciones (últimos 12 meses): <strong>420</strong></p>
-          </div>
-
-          <div style="height:12px"></div>
-
-          <div class="side-card">
-            <h2>Herramientas</h2>
-            <p class="muted">Editor: VSCode · Terminal: bash · Sistema: Linux/Windows</p>
-          </div>
-        </aside>
-      </div>
-
-      <footer>
-        Hecho con ♥ — Actualiza este perfil con tus datos reales antes de publicar.
-      </footer>
-    </div>
-  </div>
-
-  <script>
-    function copyEmail(){
-      const text = document.getElementById('email').innerText;
-      navigator.clipboard?.writeText(text).then(()=>alert('Email copiado al portapapeles'))
-    }
-  </script>
-</body>
-</html>
-
+<!-- LANGUAGES AND TOOLS -->
+<hr>
+<h3 align="center">Languages and Tools:</h3>
+<p align="center"> 
+  <a href="https://angular.io" target="_blank"> <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="40" height="40"/></a> 
+  <a href="https://www.arduino.cc/" target="_blank"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> 
+  <a href="https://www.gnu.org/software/bash/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a>
+  <a href="https://getbootstrap.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a>
+  <a href="https://www.cprogramming.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a>
+  <a href="https://www.chartjs.org" target="_blank"> <img src="https://www.chartjs.org/media/logo-title.svg" alt="chartjs" width="40" height="40"/> </a> 
+  <a href="https://www.w3schools.com/cpp/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a>
+  <a href="https://www.w3schools.com/cs/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a>
+  <a href="https://www.docker.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://www.electronjs.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/electron/electron-original.svg" alt="electron" width="40" height="40"/> </a>
+  <a href="https://expressjs.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a>
+  <a href="https://firebase.google.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a>
+  <a href="https://cloud.google.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> </a> 
+  <a href="https://git-scm.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> 
+  <a href="https://heroku.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> </a> 
+  <a href="https://www.w3.org/html/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://jasmine.github.io/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/jasmine/jasmine-icon.svg" alt="jasmine" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a>
+  <a href="https://jestjs.io" target="_blank"> <img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" alt="jest" width="40" height="40"/> </a>
+  <a href="https://www.linux.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a>
+  <a href="https://www.mongodb.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a>
+  <a href="https://www.microsoft.com/en-us/sql-server" target="_blank"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> 
+    <a href="https://nodejs.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> 
+    <a href="https://www.postgresql.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> 
+    <a href="https://postman.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> 
+    <a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> 
+    <a href="https://reactjs.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> 
+    <a href="https://www.selenium.dev" target="_blank"> <img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/selenium-logo.svg" alt="selenium" width="40" height="40"/> </a> 
+    <a href="https://spring.io/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> </a> 
+    <a href="https://tailwindcss.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/>   </a>   
+  <a href="https://www.typescriptlang.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a>
+</p>  
 <!--
 **LichtSebas/LichtSebas** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
