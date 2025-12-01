@@ -37,7 +37,10 @@
 <!-- GITHUB STATS -->
 <hr>
 <h3 align="center">📊 My GitHub Stats:</h3>
-
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=Aneal07&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=Aneal07&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=Aneal07&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 <img align="right" alt="Coding GIF" width="300" src="https://cdn.dribbble.com/users/1277312/screenshots/14733298/media/39b1045e593737587dd60e42c8422d1f.gif" >
 
 <p align="center">
@@ -46,8 +49,6 @@
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=lichtsebas&show_icons=true&theme=dark&locale=en" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=lichtsebas&theme=dark&hide_border=false)/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LichtSebas&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact"/>
 </p>
 
 <!-- TROPHIES -->
