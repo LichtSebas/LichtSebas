@@ -46,6 +46,7 @@
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=lichtsebas&show_icons=true&theme=dark&locale=en" alt="GitHub Stats" />
+  ![](https://github-readme-streak-stats.herokuapp.com/?user=lichtsebas&theme=dark&hide_border=false)<br/>
 </p>
 
 <!-- TROPHIES -->
