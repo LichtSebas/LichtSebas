@@ -38,15 +38,12 @@
 <hr>
 <h3 align="center">📊 My GitHub Stats:</h3>
 
-<img align="right" alt="Coding GIF" width="300" src="https://cdn.dribbble.com/users/1277312/screenshots/14733298/media/39b1045e593737587dd60e42c8422d1f.gif" >
-[![Arya's github stats](https://github-readme-stats.vercel.app/api?username=LichtSebas&show_icons=true&theme=merko)](https://github.com/Aryagm/github-readme-stats) [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Aryagm&layout=compact&theme=merko)](https://github.com/Aryagm/github-readme-stats)
-<br><br><br><br><br>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=lichtsebas&show_icons=true&theme=dark&locale=en&layout=compact" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=LichtSebas&show_icons=true&theme=dark&locale=en&layout=compact" alt="Top Languages" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=lichtsebas&show_icons=true&theme=dark&locale=en" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=LichtSebas&show_icons=true&theme=dark&locale=en" alt="GitHub Stats" />
 </p>
 
 <!-- TROPHIES -->
