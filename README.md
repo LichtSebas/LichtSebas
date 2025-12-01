@@ -36,8 +36,8 @@
 <!-- Base De datos -->
 <hr>
 <h3 align="center">🗃  Databases:</h3>
- <a href="https://www.mysql.com/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" width="40" height="40"/></a>
 <p align="center">
+ <a href="https://www.mysql.com/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" width="40" height="40"/></a>
 </p>
 
 <!-- GITHUB STATS -->
