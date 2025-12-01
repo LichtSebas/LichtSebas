@@ -39,13 +39,6 @@
 <h3 align="center">📊 My GitHub Stats:</h3>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=LichtSebas&show_icons=true&theme=dark&locale=en&layout=compact" alt="Top Languages" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=LichtSebas&show_icons=true&theme=dark&locale=en" alt="GitHub Stats" />
-</p>
-<p align="center">
   <a href="https://github.com/LichtSebas">
     <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=LichtSebas&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
   </a>
