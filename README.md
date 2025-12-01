@@ -46,11 +46,11 @@
   <img src="https://github-readme-stats.vercel.app/api?username=LichtSebas&show_icons=true&theme=dark&locale=en" alt="GitHub Stats" />
 </p>
 <p align="center">
-  <a href="https://github.com/Adityakanoi2001">
-    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Adityakanoi2001&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
+  <a href="https://github.com/LichtSebas">
+    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=LichtSebas&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
   </a>
-  <a href="https://github.com/Adityakanoi2001">
-    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Adityakanoi2001&layout=compact&langs_count=8&theme=algolia"/>
+  <a href="https://github.com/LichtSebas">
+    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=LichtSebas&layout=compact&langs_count=8&theme=algolia"/>
   </a>
 </p>
 <!-- TROPHIES -->
